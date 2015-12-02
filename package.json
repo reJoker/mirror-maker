@@ -1,0 +1,25 @@
+{
+  "name": "mirror-maker",
+  "version": "0.1.0",
+  "description": "A simple tool to create an object with values equal to keys from an object or an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reJoker/mirror-maker.git"
+  },
+  "keywords": [
+    "redux",
+    "flux",
+    "key",
+    "mirror"
+  ],
+  "author": "Jack Liao <djack0812@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/reJoker/mirror-maker/issues"
+  },
+  "homepage": "https://github.com/reJoker/mirror-maker#readme"
+}
