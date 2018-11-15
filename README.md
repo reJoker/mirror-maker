@@ -12,4 +12,12 @@ console.log(mirrorMaker(['a', 'b']));
 // {a: 'a', b: 'b'}
 console.log(mirrorMaker({a: 1, b: 2}));
 // {a: 'a', b: 'b'}
+
+// prefix
+console.log(mirrorMaker(['a', 'b'], 'prefix'));
+// {a: 'prefix-a', b: 'prefix-b'}
+console.log(mirrorMaker({a: 1, b: 2}, 'lala'));
+// {a: 'lala-a', b: 'lala-b'}
+
 ```
+
